@@ -1,0 +1,21 @@
+<!-- views/join-server.ejs -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Acesso Negado - Jyl Store</title>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #2c2f33; color: white; }
+        .join-box { text-align: center; background-color: #23272a; padding: 40px; border-radius: 8px; max-width: 450px; }
+        .join-btn { background-color: #5865F2; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; font-size: 18px; display: inline-block; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="join-box">
+        <h1>Acesso Restrito</h1>
+        <p>Para acessar a Jyl Store, você precisa ser um membro do nosso servidor no Discord.</p>
+        <p>Clique no botão abaixo para entrar e tente fazer o login novamente.</p>
+        <a href="<%= invite_url %>" target="_blank" class="join-btn">Entrar no Servidor</a>
+    </div>
+</body>
+</html>
